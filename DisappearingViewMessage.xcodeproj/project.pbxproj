@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35A5ADBC18384F4E003B21DE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35A5ADBB18384F4E003B21DE /* QuartzCore.framework */; };
 		EA78F7A51833D86800B519A0 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA78F7A41833D86800B519A0 /* CustomView.m */; };
 		EA78F7A71833DA4800B519A0 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA78F7A61833DA4800B519A0 /* CustomView.xib */; };
 		EABAE9E018328D61005AF336 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EABAE9DF18328D61005AF336 /* UIKit.framework */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35A5ADBB18384F4E003B21DE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		EA78F7A31833D86800B519A0 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
 		EA78F7A41833D86800B519A0 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 		EA78F7A61833DA4800B519A0 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35A5ADBC18384F4E003B21DE /* QuartzCore.framework in Frameworks */,
 				EABAE9E018328D61005AF336 /* UIKit.framework in Frameworks */,
 				EABAE9E218328D61005AF336 /* Foundation.framework in Frameworks */,
 				EABAE9E418328D61005AF336 /* CoreGraphics.framework in Frameworks */,
@@ -78,6 +81,7 @@
 		EABAE9DE18328D61005AF336 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				35A5ADBB18384F4E003B21DE /* QuartzCore.framework */,
 				EABAE9DF18328D61005AF336 /* UIKit.framework */,
 				EABAE9E118328D61005AF336 /* Foundation.framework */,
 				EABAE9E318328D61005AF336 /* CoreGraphics.framework */,

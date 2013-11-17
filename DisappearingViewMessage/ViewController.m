@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "CustomView.h"
-
+#import <QuartzCore/QuartzCore.h>
 
 @implementation ViewController
 
@@ -126,6 +126,14 @@
     
     //set the view height now
     [customView setFrame:CGRectMake(windowInset, topPoint, appViewWidth - (windowInset * 2.0), viewHeight)];
+    
+    //put a drop shadow on the view
+    //FIRST add QUARTZCore framework to project and import into this .m file
+    customView.layer.shadowColor = [[UIColor blackColor] CGColor];
+    customView.layer.shadowOpacity = 0.7;
+    customView.layer.shadowRadius = 5.0;
+    customView.layer.shadowOffset = CGSizeMake(0.0f, 0.0f);
+    customView.layer.shadowPath = [UIBezierPath bezierPathWithRect:customView.bounds].CGPath;
     
     //show the view on screen
     [[self view] addSubview:customView];
